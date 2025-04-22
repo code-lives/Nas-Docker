@@ -1,0 +1,18 @@
+version: '3'
+services:
+  qbittorrent:
+    image: linuxserver/qbittorrent:4.5.2
+    container_name: qbittorrent
+    restart: unless-stopped
+    ports:
+      - "6881:6881"
+      - "6881:6881/udp"
+      - "8083:8083"
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Asia/Shanghai
+      - WEBUI_PORT=8083
+    volumes:
+      - /tmp/zfsv3/sata11/****/data/docker/qbittorrent/config:/config
+      - /tmp/zfsv3/sata11/****/data/docker/qbittorrent/downloads:/downloads
