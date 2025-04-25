@@ -1,0 +1,18 @@
+version: "3.4"
+services:
+  nastools:
+    image: 19970688/nastools-bt:latest
+    ports:
+      - 8084:3000
+    volumes:
+      - /tmp/zfsv3/sata11/xxxx/data/docker/nastools/config:/config # 冒号左边请修改为你想保存配置的路径
+      - /tmp/zfsv3/sata11/xxxx/data/docker/qbittorrent/downloads:/home/downloads # 映射数据目录
+    environment:
+      - PUID=0
+      - PGID=0
+      - TZ=Asia/Shanghai
+      - UMASK=022 # 掩码权限，默认000，可以考虑设置为022
+    restart: always
+    network_mode: bridge
+    hostname: nastools
+    container_name: nastools
