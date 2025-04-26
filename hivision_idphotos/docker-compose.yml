@@ -1,0 +1,7 @@
+version: '3'
+services:
+  hivision_idphotos:
+    restart: always
+    image: linzeyi/hivision_idphotos:latest
+    ports:
+      - '8117:7860'

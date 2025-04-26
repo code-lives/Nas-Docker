@@ -1,0 +1,17 @@
+version: '3.3'
+services:
+  stirling-pdf:
+    restart: always
+    image: docker.stirlingpdf.com/stirlingtools/stirling-pdf:latest
+    ports:
+      - '8115:8080'
+    volumes:
+      - /tmp/zfsv3/sata11/xxx/data/docker/pdf/trainingData:/usr/share/tessdata
+      - /tmp/zfsv3/sata11/xxx/data/docker/pdf/extraConfigs:/configs
+      - /tmp/zfsv3/sata11/xxx/data/docker/pdf/customFiles:/customFiles/
+      - /tmp/zfsv3/sata11/xxx/data/docker/pdf/logs:/logs/
+      - /tmp/zfsv3/sata11/xxx/data/docker/pdf/pipeline:/pipeline/
+    environment:
+      - DOCKER_ENABLE_SECURITY=false
+      - INSTALL_BOOK_AND_ADVANCED_HTML_OPS=false
+      - LANGS=zh-CN
