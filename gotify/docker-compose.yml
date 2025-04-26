@@ -1,0 +1,14 @@
+version: '3'
+services:
+  gotify:
+    image: gotify/server:latest
+    container_name: Gotify
+    ports:
+      - 8666:80 # 冒号前面端口不冲突即可
+    volumes:
+      - /tmp/zfsv3/sata11/xxx/data/docker/gotify/data:/app/data:rw
+    environment:
+      GOTIFY_DEFAULTUSER_NAME: admin # 管理员账号
+      GOTIFY_DEFAULTUSER_PASS: 123456 # 管理员密码
+      TZ: Asia/Shanghai
+      
