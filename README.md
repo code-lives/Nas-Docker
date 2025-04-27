@@ -10,3 +10,4 @@
 |      Gotify       |     消息通知     |      [地址](https://github.com/code-lives/Nas-Docker/tree/main/gotify)       |
 |   stirling-pdf    |     pdf 工具     |   [地址](https://github.com/code-lives/Nas-Docker/tree/main/stirling-pdf)    |
 | hivision_idphotos |    证件照工具    | [地址](https://github.com/code-lives/Nas-Docker/tree/main/hivision_idphotos) |
+|       alist       |    证件照工具    |       [地址](https://github.com/code-lives/Nas-Docker/tree/main/alist)       |
