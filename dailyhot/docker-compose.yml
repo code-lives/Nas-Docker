@@ -1,0 +1,8 @@
+version: "3.1"
+services:
+  nginx:
+    restart: always
+    image: rehiy/dailyhot:latest
+    container_name: dailyhot
+    ports:
+      - "8113:80"

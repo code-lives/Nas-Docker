@@ -11,3 +11,4 @@
 |   stirling-pdf    |     pdf 工具     |   [地址](https://github.com/code-lives/Nas-Docker/tree/main/stirling-pdf)    |
 | hivision_idphotos |    证件照工具    | [地址](https://github.com/code-lives/Nas-Docker/tree/main/hivision_idphotos) |
 |       alist       |    证件照工具    |       [地址](https://github.com/code-lives/Nas-Docker/tree/main/alist)       |
+|  rehiy/dailyhot   |   各大平台热点   |     [地址](https://github.com/code-lives/Nas-Docker/tree/main/dailyhot)      |
