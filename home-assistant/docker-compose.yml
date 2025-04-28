@@ -1,0 +1,12 @@
+version: "3"
+services:
+  assistant:
+    image: homeassistant/home-assistant:latest
+    container_name: assistant
+    volumes:
+      - /tmp/zfsv3/sata11/xxxx/data/docker/home-assistant/config:/config #配置路径
+      - /tmp/zfsv3/sata11/xxxx/data/docker/home-assistant/dbus:/run/dbus:ro #下载路径
+    ports:
+      - 8010:8123
+    restart: always
+

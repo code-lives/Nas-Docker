@@ -11,4 +11,4 @@ services:
       GOTIFY_DEFAULTUSER_NAME: admin # 管理员账号
       GOTIFY_DEFAULTUSER_PASS: 123456 # 管理员密码
       TZ: Asia/Shanghai
-      
+    restart: always      
