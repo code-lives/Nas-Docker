@@ -1,0 +1,8 @@
+version: "3"
+services:
+  nginx:
+    restart: always
+    image: ihmily/image-matting:latest
+    container_name: image-matting
+    ports:
+      - "8333:8000"
