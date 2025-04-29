@@ -14,3 +14,4 @@
 |    rehiy/dailyhot    |   各大平台热点   |     [地址](https://github.com/code-lives/Nas-Docker/tree/main/dailyhot)      |
 | ihmily/image-matting |     抠图工具     |   [地址](https://github.com/code-lives/Nas-Docker/tree/main/image-matting)   |
 |    home-assistant    |   智能家居管理   |  [地址](https://github.com/code-lives/Nas-Docker/tree/main/home-assistant)   |
+|       jellyfin       |   智能家居管理   |     [地址](https://github.com/code-lives/Nas-Docker/tree/main/jellyfin)      |

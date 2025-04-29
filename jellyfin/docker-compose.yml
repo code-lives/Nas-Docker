@@ -1,0 +1,16 @@
+version: "3"
+services:
+  assistant:
+    image: jellyfin/jellyfin:latest
+    container_name: jellyfin
+    volumes:
+      - /tmp/zfsv3/sata11/xxxx/data/docker/jellyfin/config:/config #配置路径
+      - /tmp/zfsv3/sata11/1873xxxx4351007/data/docker/qbittorrent/downloads/link:/media #下载路径
+    ports:
+      - 8096:8096
+    environment:
+        - PUID=0
+        - PGID=0
+        - TZ=Asia/Shanghai
+    restart: always
+
