@@ -16,3 +16,4 @@
 |    home-assistant    |   智能家居管理   |  [地址](https://github.com/code-lives/Nas-Docker/tree/main/home-assistant)   |
 |       jellyfin       |   智能家居管理   |     [地址](https://github.com/code-lives/Nas-Docker/tree/main/jellyfin)      |
 |      surveyking      |   智能家居管理   |    [地址](https://github.com/code-lives/Nas-Docker/tree/main/surveyking)     |
+|       fcgames        |   智能家居管理   |      [地址](https://github.com/code-lives/Nas-Docker/tree/main/fcgames)      |

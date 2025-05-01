@@ -1,0 +1,8 @@
+version: "3"
+services:
+  nginx:
+    restart: always
+    image: stayhungrystayfoolish666/fc-web-game:latest
+    container_name: fcgames
+    ports:
+      - "8150:80"
