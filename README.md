@@ -17,3 +17,4 @@
 |       jellyfin       |   影视播放工具   |     [地址](https://github.com/code-lives/Nas-Docker/tree/main/jellyfin)      |
 |      surveyking      |     考试系统     |    [地址](https://github.com/code-lives/Nas-Docker/tree/main/surveyking)     |
 |       fcgames        |   网页怀旧游戏   |      [地址](https://github.com/code-lives/Nas-Docker/tree/main/fcgames)      |
+|       TaleBook       |    电子书网站    |     [地址](https://github.com/code-lives/Nas-Docker/tree/main/TaleBook)      |
