@@ -1,0 +1,11 @@
+version: "3"
+services:
+  sun-panel:
+    restart: always
+    image: hslr/sun-panel:latest
+    container_name: sun-panel
+    ports:
+      - "8888:3002"
+    volumes:
+      - /tmp/zfsv3/sata11/xxxx/data/docker/sun-panel/conf:/app/conf
+      - /tmp/zfsv3/sata11/xxxx/data/docker/sun-panel/runtime:/app/runtime
