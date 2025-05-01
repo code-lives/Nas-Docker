@@ -1,0 +1,12 @@
+version: "3"
+services:
+  nginx:
+    restart: always
+    image: surveyking/surveyking:latest
+    container_name: surveyking
+    ports:
+      - "1991:1991"
+    volumes:
+      - /tmp/zfsv3/sata11/xxxx/data/docker/surveyking/files:/app/files
+      - /tmp/zfsv3/sata11/xxxx/data/docker/surveyking/db:/app/db
+      - /tmp/zfsv3/sata11/xxxx/data/docker/surveyking/log:/app/logs
