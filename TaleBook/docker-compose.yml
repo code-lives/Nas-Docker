@@ -1,0 +1,10 @@
+version: "3"
+services:
+  talebook:
+    restart: always
+    image: talebook/talebook:latest
+    container_name: talebook
+    ports:
+      - "8999:80"
+    volumes:
+      - /tmp/zfsv3/sata11/18734351007/data/docker/TaleBook/data:/data
