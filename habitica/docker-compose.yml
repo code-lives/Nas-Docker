@@ -1,0 +1,44 @@
+version: "3"
+services:
+  client:
+    image: registry.cn-beijing.aliyuncs.com/code-lives/habitica-client:5.36.1
+    command: [ "npm", "run", "client:dev" ]
+    networks:
+      - habitica
+    environment:
+      - BASE_URL=http://192.168.31.202:3000
+    ports:
+      - "8882:8080"
+    depends_on:
+      - server
+  server:
+    image: registry.cn-beijing.aliyuncs.com/code-lives/habitica-server:5.36.1
+    command: [ "npm", "start" ]
+    networks:
+      - habitica
+    environment:
+      - NODE_DB_URI=mongodb://mongo/habitrpg
+    ports:
+      - "3000:3000"
+    depends_on:
+      - mongo
+  mongo:
+    image: mongo:5.0.23
+    restart: unless-stopped
+    command: [ "--replSet", "rs", "--bind_ip_all", "--port", "27017" ]
+    networks:
+      - habitica
+    healthcheck:
+      test: echo "try { rs.status() } catch (err) { rs.initiate() }" | mongosh --port 27017 --quiet
+      interval: 10s
+      timeout: 30s
+      start_period: 0s
+      start_interval: 1s
+      retries: 30
+    ports:
+      - "27017:27017"
+    volumes:
+      - /tmp/zfsv3/sata11/xxxx/data/docker/habitica/db:/data/db
+networks:
+  habitica:
+    driver: bridge
