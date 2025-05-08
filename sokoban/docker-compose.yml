@@ -1,0 +1,8 @@
+version: "3"
+services:
+  nginx:
+    restart: always
+    image: registry.cn-beijing.aliyuncs.com/code-lives/sokoban:1.0.0
+    container_name: sokoban
+    ports:
+      - "8170:80"
