@@ -20,4 +20,5 @@
 |       TaleBook       |    电子书网站    |     [地址](https://github.com/code-lives/Nas-Docker/tree/main/TaleBook)      |
 |      sun-panel       |     网站导航     |     [地址](https://github.com/code-lives/Nas-Docker/tree/main/sun-panel)     |
 |       habitica       |    养成类游戏    |     [地址](https://github.com/code-lives/Nas-Docker/tree/main/habitica)      |
-|       sokoban        |    养成类游戏    |      [地址](https://github.com/code-lives/Nas-Docker/tree/main/sokoban)      |
+|       sokoban        |    推箱子游戏    |      [地址](https://github.com/code-lives/Nas-Docker/tree/main/sokoban)      |
+|       h5games        |  80 款页面游戏   |      [地址](https://github.com/code-lives/Nas-Docker/tree/main/h5games)      |

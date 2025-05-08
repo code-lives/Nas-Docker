@@ -1,0 +1,8 @@
+version: '3'
+services:
+  app:
+    image: registry.cn-beijing.aliyuncs.com/code-lives/h5games:1.0.0
+    restart: always
+    container_name: h5games
+    ports:
+      - "8333:80"
