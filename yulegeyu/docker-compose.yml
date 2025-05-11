@@ -1,0 +1,8 @@
+version: "3"
+services:
+  yulegeyu:
+    image: registry.cn-beijing.aliyuncs.com/code-lives/yulegeyu:1.0.0
+    container_name: yulegeyu
+    ports:
+      - 8123:80
+    restart: always

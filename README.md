@@ -22,3 +22,4 @@
 |       habitica       |    养成类游戏    |     [地址](https://github.com/code-lives/Nas-Docker/tree/main/habitica)      |
 |       sokoban        |    推箱子游戏    |      [地址](https://github.com/code-lives/Nas-Docker/tree/main/sokoban)      |
 |       h5games        |  80 款页面游戏   |      [地址](https://github.com/code-lives/Nas-Docker/tree/main/h5games)      |
+|       yulegeyu       |     鱼了个鱼     |     [地址](https://github.com/code-lives/Nas-Docker/tree/main/yulegeyu)      |
