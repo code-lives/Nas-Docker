@@ -1,0 +1,8 @@
+version: "3"
+services:
+  gangqin:
+    restart: always
+    image: registry.cn-beijing.aliyuncs.com/code-lives/gangqin:1.0.0
+    container_name: gangqin
+    ports:
+      - 8119:5001
