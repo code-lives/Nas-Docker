@@ -24,3 +24,4 @@
 |       h5games        |  80 款页面游戏   |      [地址](https://github.com/code-lives/Nas-Docker/tree/main/h5games)      |
 |       yulegeyu       |     鱼了个鱼     |     [地址](https://github.com/code-lives/Nas-Docker/tree/main/yulegeyu)      |
 |       gangqin        |     网页钢琴     |      [地址](https://github.com/code-lives/Nas-Docker/tree/main/gangqin)      |
+|      streamrec       |     直播录制     |     [地址](https://github.com/code-lives/Nas-Docker/tree/main/streamrec)     |

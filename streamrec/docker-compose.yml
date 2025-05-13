@@ -1,0 +1,38 @@
+version: "3"
+services:
+  backend:
+    image: streamrec/stream-rec:latest
+    container_name: stream-rec
+    restart: unless-stopped
+    ports:
+      - "12555:12555"
+    networks:
+      - stream-rec
+    volumes:
+      - "/tmp/zfsv3/sata11/xxxx/data/docker/streamrec/downloads:/opt/records"
+      - "/tmp/zfsv3/sata11/xxxx/data/docker/streamrec/rclone:/root/.config/rclone"
+    environment:
+      - TZ=Europe/Paris
+      - LOG_LEVEL=INFO
+      - DB_PATH=/opt/records
+      - DOWNLOAD_PATH=/opt/records
+      - PGID=1000
+      - PUID=1000
+  frontend:
+    image: streamrec/stream-rec-front:latest
+    container_name: stream-rec-frontend
+    restart: unless-stopped
+    ports:
+      - "15275:15275"
+    networks:
+      - stream-rec
+    depends_on:
+      - backend
+    environment:
+      - TZ=Europe/Paris
+      - API_URL=http://backend:12555/api
+      - AUTH_SECRET=6chtw8GBN3BO // [!code highlight]
+      - AUTH_TRUST_HOST=true
+      - WS_API_URL=ws://localhost:12555/live/update
+networks:
+  stream-rec:
