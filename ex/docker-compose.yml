@@ -1,0 +1,8 @@
+version: "3.1"
+services:
+  ex:
+    restart: always
+    image: registry.cn-beijing.aliyuncs.com/code-lives/ex:1.0.0
+    container_name: ex
+    ports:
+      - "8999:80"
