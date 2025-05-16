@@ -1,28 +1,32 @@
-# docker-compose 部署好玩的镜像
+# 寻找好玩的 docker 镜像
 
-## 极空间举例
+## ⚠️ 注意事项
 
-|         名称         |       介绍       |                           docker-compose.yml 地址                            |
-| :------------------: | :--------------: | :--------------------------------------------------------------------------: |
-|     qbittorrent      |   磁力下载工具   |    [地址](https://github.com/code-lives/Nas-Docker/tree/main/qbittorrent)    |
-|       NasTool        | 智能影音管理工具 |      [地址](https://github.com/code-lives/Nas-Docker/tree/main/NasTool)      |
-|       Jackett        |      索引器      |      [地址](https://github.com/code-lives/Nas-Docker/tree/main/jackett)      |
-|        Gotify        |     消息通知     |      [地址](https://github.com/code-lives/Nas-Docker/tree/main/gotify)       |
-|     stirling-pdf     |     pdf 工具     |   [地址](https://github.com/code-lives/Nas-Docker/tree/main/stirling-pdf)    |
-|  hivision_idphotos   |    证件照工具    | [地址](https://github.com/code-lives/Nas-Docker/tree/main/hivision_idphotos) |
-|        alist         |    证件照工具    |       [地址](https://github.com/code-lives/Nas-Docker/tree/main/alist)       |
-|    rehiy/dailyhot    |   各大平台热点   |     [地址](https://github.com/code-lives/Nas-Docker/tree/main/dailyhot)      |
-| ihmily/image-matting |     抠图工具     |   [地址](https://github.com/code-lives/Nas-Docker/tree/main/image-matting)   |
-|    home-assistant    |   智能家居管理   |  [地址](https://github.com/code-lives/Nas-Docker/tree/main/home-assistant)   |
-|       jellyfin       |   影视播放工具   |     [地址](https://github.com/code-lives/Nas-Docker/tree/main/jellyfin)      |
-|      surveyking      |     考试系统     |    [地址](https://github.com/code-lives/Nas-Docker/tree/main/surveyking)     |
-|       fcgames        |   网页怀旧游戏   |      [地址](https://github.com/code-lives/Nas-Docker/tree/main/fcgames)      |
-|       TaleBook       |    电子书网站    |     [地址](https://github.com/code-lives/Nas-Docker/tree/main/TaleBook)      |
-|      sun-panel       |     网站导航     |     [地址](https://github.com/code-lives/Nas-Docker/tree/main/sun-panel)     |
-|       habitica       |    养成类游戏    |     [地址](https://github.com/code-lives/Nas-Docker/tree/main/habitica)      |
-|       sokoban        |    推箱子游戏    |      [地址](https://github.com/code-lives/Nas-Docker/tree/main/sokoban)      |
-|       h5games        |  80 款页面游戏   |      [地址](https://github.com/code-lives/Nas-Docker/tree/main/h5games)      |
-|       yulegeyu       |     鱼了个鱼     |     [地址](https://github.com/code-lives/Nas-Docker/tree/main/yulegeyu)      |
-|       gangqin        |     网页钢琴     |      [地址](https://github.com/code-lives/Nas-Docker/tree/main/gangqin)      |
-|      streamrec       |     直播录制     |     [地址](https://github.com/code-lives/Nas-Docker/tree/main/streamrec)     |
-|          ex          |  头晕恶习恶作剧  |        [地址](https://github.com/code-lives/Nas-Docker/tree/main/ex)         |
+#### 1.更换挂载目录
+
+#### 2.更换对外端口
+
+|         名称         |       介绍       |   docker-compose.yml 地址   |
+| :------------------: | :--------------: | :-------------------------: |
+|     qbittorrent      |   磁力下载工具   |    [地址](./qbittorrent)    |
+|       NasTool        | 智能影音管理工具 |      [地址](./NasTool)      |
+|       Jackett        |      索引器      |      [地址](./jackett)      |
+|        Gotify        |     消息通知     |      [地址](./gotify)       |
+|     stirling-pdf     |     pdf 工具     |   [地址](./stirling-pdf)    |
+|  hivision_idphotos   |    证件照工具    | [地址](./hivision_idphotos) |
+|        alist         |    证件照工具    |       [地址](./alist)       |
+|    rehiy/dailyhot    |   各大平台热点   |     [地址](./dailyhot)      |
+| ihmily/image-matting |     抠图工具     |   [地址](./image-matting)   |
+|    home-assistant    |   智能家居管理   |  [地址](./home-assistant)   |
+|       jellyfin       |   影视播放工具   |     [地址](./jellyfin)      |
+|      surveyking      |     考试系统     |    [地址](./surveyking)     |
+|       fcgames        |   网页怀旧游戏   |      [地址](./fcgames)      |
+|       TaleBook       |    电子书网站    |     [地址](./TaleBook)      |
+|      sun-panel       |     网站导航     |     [地址](./sun-panel)     |
+|       habitica       |    养成类游戏    |     [地址](./habitica)      |
+|       sokoban        |    推箱子游戏    |      [地址](./sokoban)      |
+|       h5games        |  80 款页面游戏   |      [地址](./h5games)      |
+|       yulegeyu       |     鱼了个鱼     |     [地址](./yulegeyu)      |
+|       gangqin        |     网页钢琴     |      [地址](./gangqin)      |
+|      streamrec       |     直播录制     |     [地址](./streamrec)     |
+|          ex          |  头晕恶习恶作剧  |        [地址](./ex)         |
