@@ -1,0 +1,27 @@
+version: "3"
+services:
+  mongo:
+    image: mongo
+    container_name: fioradb
+    restart: always
+    ports:
+      - "27017:27017"
+    volumes:
+      - ./db:/data/db
+  redis:
+    image: redis
+    container_name: fioraredis
+    restart: always
+    ports:
+      - "6379:6379"
+    volumes:
+      - ./redis:/data
+  fiora:
+    image: suisuijiang/fiora
+    container_name: fiora
+    restart: always
+    environment:
+      - Database=mongodb://fioradb:27017/fiora
+      - RedisHost=fioraredis
+    ports:
+      - "9200:9200"
