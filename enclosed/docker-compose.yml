@@ -1,0 +1,10 @@
+version: "3.1"
+services:
+  enclosed:
+    restart: always
+    image: corentinth/enclosed
+    container_name: enclosed
+    ports:
+      - "8787:8787"
+    volumes:
+      - ./data:/app/.data
