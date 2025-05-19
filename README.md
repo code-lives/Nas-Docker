@@ -30,3 +30,4 @@
 |       gangqin        |     网页钢琴     |      [地址](./gangqin)      |
 |      streamrec       |     直播录制     |     [地址](./streamrec)     |
 |          ex          |  头晕恶习恶作剧  |        [地址](./ex)         |
+|        fiora         |    在线聊天室    |       [地址](./fiora)       |
