@@ -32,3 +32,4 @@
 |          ex          |    头晕恶习恶作剧    |        [地址](./ex)         |
 |        fiora         |      在线聊天室      |       [地址](./fiora)       |
 |       enclosed       | 发送私密且安全的笔记 |     [地址](./enclosed)      |
+|    qwerty-learner    |  英语单词学习和发音  |  [地址](./qwerty-learner)   |

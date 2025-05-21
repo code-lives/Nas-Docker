@@ -1,0 +1,8 @@
+version: '3'
+services:
+  qwerty-learner:
+    image: lijiecodelives/qwerty-learner
+    container_name: qwerty-learner
+    ports:
+      - 8233:5173
+    restart: always
