@@ -1,0 +1,11 @@
+version: "3"
+services:
+  paint-board:
+    restart: always
+    image: lijiecodelives/paint-board
+    container_name: paint-board
+    ports:
+      - "8001:80"
+    volumes:
+      - ./data:/var/www/database/data
+      - ./public:/var/www/storage/app/public
