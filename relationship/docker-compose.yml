@@ -2,7 +2,7 @@ version: "3"
 services:
   relationship:
     image: lijiecodelives/relationship:latest
-    container_name: yulrelationshipgeyu
+    container_name: relationship
     ports:
       - 8123:80
     restart: always
