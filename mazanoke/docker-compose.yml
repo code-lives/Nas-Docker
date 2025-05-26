@@ -1,0 +1,7 @@
+version: "3"
+services:
+  mazanoke:
+    container_name: mazanoke
+    image: ghcr.io/civilblur/mazanoke:latest
+    ports:
+      - "3474:80"

@@ -36,3 +36,5 @@
 |     paint-board      |       一款支持多端操作的趣味艺术画板       |    [地址](./paint-board)    |
 |     relationship     |               亲戚关系计算器               |   [地址](./relationship)    |
 |     filecodebox      | 匿名口令分享文本和文件，像拿快递一样取文件 |    [地址](./filecodebox)    |
+|       freecad        |              3D 参数化建模器               |      [地址](./freecad)      |
+|       mazanoke       |                 图像优化器                 |     [地址](./mazanoke)      |
