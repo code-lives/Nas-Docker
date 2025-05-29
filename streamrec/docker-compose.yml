@@ -9,8 +9,8 @@ services:
     networks:
       - stream-rec
     volumes:
-      - "/tmp/zfsv3/sata11/xxxx/data/docker/streamrec/downloads:/opt/records"
-      - "/tmp/zfsv3/sata11/xxxx/data/docker/streamrec/rclone:/root/.config/rclone"
+      - "./downloads:/opt/records"
+      - "./rclone:/root/.config/rclone"
     environment:
       - TZ=Europe/Paris
       - LOG_LEVEL=INFO

@@ -38,3 +38,4 @@
 |     filecodebox      | 匿名口令分享文本和文件，像拿快递一样取文件 |    [地址](./filecodebox)    |
 |       freecad        |              3D 参数化建模器               |      [地址](./freecad)      |
 |       mazanoke       |                 图像优化器                 |     [地址](./mazanoke)      |
+|     typing-game      |                  汉字游戏                  |    [地址](./typing-game)    |

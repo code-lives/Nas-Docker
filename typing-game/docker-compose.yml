@@ -1,0 +1,9 @@
+version: "3"
+services:
+  typing-game:
+    image: lijiecodelives/typing-game:latest
+    container_name: typing-game
+    command: npm run dev
+    ports:
+      - 8123:8123
+    restart: always
