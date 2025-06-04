@@ -39,3 +39,4 @@
 |       freecad        |              3D 参数化建模器               |      [地址](./freecad)      |
 |       mazanoke       |                 图像优化器                 |     [地址](./mazanoke)      |
 |     typing-game      |                  汉字游戏                  |    [地址](./typing-game)    |
+|      excalidraw      |                虚拟手绘白板                |    [地址](./excalidraw)     |

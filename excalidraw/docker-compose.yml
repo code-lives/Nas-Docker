@@ -1,0 +1,8 @@
+version: "3.1"
+services:
+  excalidraw:
+    restart: always
+    image: lijiecodelives/excalidraw:latest
+    container_name: excalidraw
+    ports:
+      - "8999:80"
