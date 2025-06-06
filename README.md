@@ -40,3 +40,5 @@
 |       mazanoke       |                 图像优化器                 |     [地址](./mazanoke)      |
 |     typing-game      |                  汉字游戏                  |    [地址](./typing-game)    |
 |      excalidraw      |                虚拟手绘白板                |    [地址](./excalidraw)     |
+|        memos         |                   备忘录                   |       [地址](./memos)       |
+|      crossroad       |                 小鸡过马路                 |     [地址](./crossroad)     |

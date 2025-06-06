@@ -1,0 +1,8 @@
+version: "3"
+services:
+  crossroad:
+    image: lijiecodelives/crossroad:latest
+    container_name: crossroad
+    ports:
+      - 8123:80
+    restart: always
