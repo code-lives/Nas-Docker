@@ -1,0 +1,8 @@
+version: "3"
+services:
+  js13kgames:
+    image: lijiecodelives/js13kgames:latest
+    container_name: s13kgames
+    ports:
+      - 8123:80
+    restart: always

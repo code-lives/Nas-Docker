@@ -42,3 +42,4 @@
 |      excalidraw      |                虚拟手绘白板                |    [地址](./excalidraw)     |
 |        memos         |                   备忘录                   |       [地址](./memos)       |
 |      crossroad       |                 小鸡过马路                 |     [地址](./crossroad)     |
+|      js13kgames      |              探路照明恐怖游戏              |    [地址](./js13kgames)     |
