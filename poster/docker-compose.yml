@@ -1,0 +1,12 @@
+version: '3'
+services:
+  poster-web:
+    image: heimanba/poster-web
+    ports:
+      - "8323:80"
+    depends_on:
+      - poster-api
+  poster-api:
+    image: heimanba/poster-api
+    ports:
+      - "7001:7001"
